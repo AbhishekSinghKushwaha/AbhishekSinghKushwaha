@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Abhishek%20Singh%20Kushwaha&fontSize=44&fontColor=ffffff&fontAlignY=32&desc=AI%20Software%20Engineer%20%C2%B7%20Agentic%20Systems%20%C2%B7%20RAG%20Pipelines&descAlignY=54&descSize=18" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&multiline=false&width=940&lines=AI+Software+Engineer+%C2%B7+6+Years+Shipping+Software;Building+Production+Agentic+AI+Systems;RAG+Pipelines+%C2%B7+LLM+Apps+%C2%B7+Full+Stack;Open+Weights+or+Frontier+API+%E2%80%94+Whatever+Fits;Python+%7C+LangChain+%7C+LangGraph+%7C+FastAPI+%7C+AWS" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&multiline=false&width=940&lines=AI+Software+Engineer+%C2%B7+6+Years+Shipping+Software;Building+Production+Agentic+AI+Systems;RAG+Pipelines+%C2%B7+LLM+Apps+%C2%B7+Full+Stack;Open+Weights+or+Frontier+API+%C2%B7+Whatever+Fits;Python+%7C+LangChain+%7C+LangGraph+%7C+FastAPI+%7C+AWS" alt="Typing SVG" />
 
 <p>
   <a href="https://www.linkedin.com/in/abhishek-singh-kushwaha"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -23,9 +23,9 @@
 
 ## 👋 About Me
 
-I'm an **AI Software Engineer** with **6 years of experience** building full-stack applications and production-grade AI systems. I design **agentic workflows**, **RAG pipelines**, and **LLM-powered products** using Python, LangChain, LangGraph, and FastAPI — running on frontier APIs and open-weight models alike, deployed across AWS and Google Cloud.
+I'm an **AI Software Engineer** with **6 years of experience** building full-stack applications and production-grade AI systems. I design **agentic workflows**, **RAG pipelines**, and **LLM-powered products** using Python, LangChain, LangGraph, and FastAPI, running on frontier APIs and open-weight models alike, deployed across AWS and Google Cloud.
 
-My path runs from **data science** → **three years of full-stack engineering** shipping production apps for users across the US and Africa → **graduate AI research** on deep learning for Alzheimer's detection and biometric authentication. That arc means I think about AI systems from both the research bench and the production floor — I know what it costs when systems fail at scale.
+My path runs from **data science** → **three years of full-stack engineering** shipping production apps for users across the US and Africa → **graduate AI research** on deep learning for Alzheimer's detection and biometric authentication. That arc means I think about AI systems from both the research bench and the production floor. I know what it costs when systems fail at scale.
 
 ```console
 $ whoami --verbose
@@ -33,7 +33,8 @@ $ whoami --verbose
   role      →  AI Software Engineer @ Srasks
   focus     →  Agentic Workflows · RAG · LLM Systems · Cloud AI
   models    →  GPT · Claude · Gemini · Llama · Mistral · Qwen · DeepSeek
-  runtime   →  vLLM · Ollama · Groq · Docker · Kubernetes · AWS · GCP
+  runtime   →  Ollama · Groq · Docker · Kubernetes · AWS · GCP
+  daily     →  Claude Code · Codex · OpenCode · Antigravity
   open_to   →  Senior AI Engineer · Applied AI Engineer · AI/ML Engineer
   motto     →  "Make it correct, then make it cheap, then make it fast."
 
@@ -44,7 +45,7 @@ $ _
 
 ## 🧬 How I Build Agentic Systems
 
-> The shape almost every system I ship converges on — routed, grounded, evaluated, and cheap by default.
+> The shape almost every system I ship converges on: routed, grounded, evaluated, and cheap by default.
 
 ```mermaid
 flowchart LR
@@ -81,38 +82,30 @@ flowchart LR
 ## 🛠️ Tech Stack
 
 <details open>
-<summary><b>🧠 Models — Frontier APIs</b></summary>
+<summary><b>🧠 Models & Inference</b></summary>
 <br>
 <p>
 <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
 <img src="https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white"/>
 <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/>
-<img src="https://img.shields.io/badge/Mistral_AI-FA520F?style=for-the-badge&logo=mistralai&logoColor=white"/>
-<img src="https://img.shields.io/badge/Cohere-39594D?style=for-the-badge&logo=cohere&logoColor=white"/>
-<img src="https://img.shields.io/badge/xAI_Grok-000000?style=for-the-badge&logo=x&logoColor=white"/>
-<img src="https://img.shields.io/badge/Perplexity-1FB8CD?style=for-the-badge&logo=perplexity&logoColor=white"/>
-</p>
-</details>
-
-<details open>
-<summary><b>🦙 Models — Open Weights</b></summary>
-<br>
-<p>
 <img src="https://img.shields.io/badge/Llama_3.x-0866FF?style=for-the-badge&logo=meta&logoColor=white"/>
 <img src="https://img.shields.io/badge/Mistral_%2F_Mixtral-FA520F?style=for-the-badge&logo=mistralai&logoColor=white"/>
 <img src="https://img.shields.io/badge/Qwen-6236FF?style=for-the-badge&logo=alibabacloud&logoColor=white"/>
 <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white"/>
 <img src="https://img.shields.io/badge/Gemma-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
+<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white"/>
+<img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge"/>
 </p>
 </details>
 
 <details open>
-<summary><b>⚡ Inference & Serving</b></summary>
+<summary><b>🤖 AI Coding Agents</b></summary>
 <br>
 <p>
-<img src="https://img.shields.io/badge/vLLM-FDBA74?style=for-the-badge&logoColor=black"/>
-<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white"/>
-<img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white"/>
+<img src="https://img.shields.io/badge/Codex-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenCode-1C1C1C?style=for-the-badge&logo=opensourceinitiative&logoColor=white"/>
+<img src="https://img.shields.io/badge/Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
 </p>
 </details>
 
@@ -167,7 +160,7 @@ flowchart LR
 
 ```text
 ▸ Building     multi-agent workflows with LangGraph + MCP tool servers
-▸ Exploring    open-weight model routing — vLLM, Ollama, Groq
+▸ Exploring    open-weight model routing with Ollama and Groq
 ▸ Learning     eval-driven development & LLM observability at scale
 ▸ Ask me about RAG that survives contact with real documents
 ```
