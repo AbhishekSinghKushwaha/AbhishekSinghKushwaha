@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Abhishek%20Singh%20Kushwaha&fontSize=44&fontColor=ffffff&fontAlignY=32&desc=AI%20Software%20Engineer%20%C2%B7%20Agentic%20Systems%20%C2%B7%20RAG%20Pipelines&descAlignY=54&descSize=18" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&multiline=false&width=940&lines=AI+Software+Engineer+%C2%B7+6+Years+Shipping+Software;Building+Production+Agentic+AI+Systems;RAG+Pipelines+%C2%B7+LLM+Apps+%C2%B7+Full+Stack;Open+Weights+or+Frontier+API+%E2%80%94+Whatever+Fits;Python+%7C+LangGraph+%7C+FastAPI+%7C+AWS+%7C+NVIDIA+NIM" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&multiline=false&width=940&lines=AI+Software+Engineer+%C2%B7+6+Years+Shipping+Software;Building+Production+Agentic+AI+Systems;RAG+Pipelines+%C2%B7+LLM+Apps+%C2%B7+Full+Stack;Open+Weights+or+Frontier+API+%E2%80%94+Whatever+Fits;Python+%7C+LangChain+%7C+LangGraph+%7C+FastAPI+%7C+AWS" alt="Typing SVG" />
 
 <p>
   <a href="https://www.linkedin.com/in/abhishek-singh-kushwaha"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -33,7 +33,7 @@ $ whoami --verbose
   role      →  AI Software Engineer @ Srasks
   focus     →  Agentic Workflows · RAG · LLM Systems · Cloud AI
   models    →  GPT · Claude · Gemini · Llama · Mistral · Qwen · DeepSeek
-  runtime   →  NVIDIA NIM · Groq · vLLM · Ollama · Bedrock · Vertex AI
+  runtime   →  vLLM · Ollama · Groq · Docker · Kubernetes · AWS · GCP
   open_to   →  Senior AI Engineer · Applied AI Engineer · AI/ML Engineer
   motto     →  "Make it correct, then make it cheap, then make it fast."
 
@@ -55,7 +55,7 @@ flowchart LR
     R -->|retrieval| RAG[[RAG Pipeline]]
 
     RAG --> E[Embed + Chunk]
-    E --> V[(Vector Store<br/>Weaviate · FAISS · Pinecone)]
+    E --> V[(Vector Store<br/>Weaviate · FAISS)]
     V --> RR[Rerank + Ground]
     RR --> F
 
@@ -87,14 +87,10 @@ flowchart LR
 <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
 <img src="https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white"/>
 <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/>
-<img src="https://img.shields.io/badge/NVIDIA_NIM-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
 <img src="https://img.shields.io/badge/Mistral_AI-FA520F?style=for-the-badge&logo=mistralai&logoColor=white"/>
 <img src="https://img.shields.io/badge/Cohere-39594D?style=for-the-badge&logo=cohere&logoColor=white"/>
 <img src="https://img.shields.io/badge/xAI_Grok-000000?style=for-the-badge&logo=x&logoColor=white"/>
 <img src="https://img.shields.io/badge/Perplexity-1FB8CD?style=for-the-badge&logo=perplexity&logoColor=white"/>
-<img src="https://img.shields.io/badge/AWS_Bedrock-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vertex_AI-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
-<img src="https://img.shields.io/badge/Azure_OpenAI-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
 </p>
 </details>
 
@@ -107,10 +103,6 @@ flowchart LR
 <img src="https://img.shields.io/badge/Qwen-6236FF?style=for-the-badge&logo=alibabacloud&logoColor=white"/>
 <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white"/>
 <img src="https://img.shields.io/badge/Gemma-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
-<img src="https://img.shields.io/badge/Phi-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"/>
-<img src="https://img.shields.io/badge/Falcon-1F4E79?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Whisper-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/Stable_Diffusion-000000?style=for-the-badge&logo=stabilityai&logoColor=white"/>
 </p>
 </details>
 
@@ -118,16 +110,9 @@ flowchart LR
 <summary><b>⚡ Inference & Serving</b></summary>
 <br>
 <p>
-<img src="https://img.shields.io/badge/NVIDIA_NIM_%2F_NeMo-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
-<img src="https://img.shields.io/badge/NVIDIA_Triton-76B900?style=for-the-badge&logo=nvidia&logoColor=black"/>
-<img src="https://img.shields.io/badge/TensorRT--LLM-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
 <img src="https://img.shields.io/badge/vLLM-FDBA74?style=for-the-badge&logoColor=black"/>
 <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white"/>
 <img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Together_AI-0F6FFF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Replicate-000000?style=for-the-badge&logo=replicate&logoColor=white"/>
-<img src="https://img.shields.io/badge/llama.cpp-9C27B0?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
 </p>
 </details>
 
@@ -166,9 +151,6 @@ flowchart LR
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 <img src="https://img.shields.io/badge/Weaviate-3B82F6?style=for-the-badge&logo=weaviate&logoColor=white"/>
 <img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Chroma-FF6B6B?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
 </p>
 <p>
 <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
@@ -181,59 +163,16 @@ flowchart LR
 
 ---
 
-## 🧭 How I Think About AI Systems
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**🎯 Evals before vibes**
-
-A demo that works once isn't a system. If there's no eval set and no trace, it isn't shipped — it's a coincidence waiting to be discovered in prod.
-
-</td>
-<td width="50%" valign="top">
-
-**⚖️ Right model, right job**
-
-Not every call needs a frontier model. Route the easy 80% to an open-weight model on NIM or vLLM and spend the budget where reasoning actually matters.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**📚 Retrieval beats parameters**
-
-Most "the model doesn't know this" problems are retrieval problems. Fix the chunking and the reranker before reaching for a fine-tune.
-
-</td>
-<td width="50%" valign="top">
-
-**🏗️ Boring infra, interesting models**
-
-The AI layer should be the only novel thing in the stack. Everything under it — queues, caches, deploys — should be aggressively unsurprising.
-
-</td>
-</tr>
-</table>
-
----
-
 ## 🔭 Currently
 
 ```text
 ▸ Building     multi-agent workflows with LangGraph + MCP tool servers
-▸ Exploring    open-weight model routing — NVIDIA NIM, vLLM, Groq
+▸ Exploring    open-weight model routing — vLLM, Ollama, Groq
 ▸ Learning     eval-driven development & LLM observability at scale
 ▸ Ask me about RAG that survives contact with real documents
 ```
 
 <div align="center">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Quote"/>
-
-<br><br>
 
 *Building at the intersection of agentic AI, retrieval systems, and production infrastructure.*
 
