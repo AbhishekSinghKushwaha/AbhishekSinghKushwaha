@@ -1,235 +1,238 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=140&section=header&text=&fontSize=0" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=180&section=header&text=Abhishek%20Singh%20Kushwaha&fontSize=42&fontColor=ffffff&fontAlignY=32&desc=AI%20Software%20Engineer%20%C2%B7%20Agentic%20Systems%20%C2%B7%20RAG%20Pipelines&descAlignY=54&descSize=18" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=32&duration=2800&pause=1200&color=A78BFA&center=true&vCenter=true&width=960&lines=Abhishek+Singh+Kushwaha;AI+%26+Agentic+Machine+Learning+Engineer;Full+Stack+AI+Systems+Developer" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=1000&color=A78BFA&center=true&vCenter=true&width=940&lines=AI+Software+Engineer+%C2%B7+6+Years+Experience;Building+Production+Agentic+AI+Systems;RAG+Pipelines+%C2%B7+LLM+Apps+%C2%B7+Full+Stack;Python+%7C+LangChain+%7C+FastAPI+%7C+AWS" alt="Typing SVG" />
 
-</div>
-
-<p align="center">
-  <a href="https://your-portfolio-url.com"><img src="https://img.shields.io/badge/Portfolio-Live-A78BFA?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+<p>
   <a href="https://www.linkedin.com/in/abhishek-singh-kushwaha"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:youremail@gmail.com"><img src="https://img.shields.io/badge/Email-Reach_Out-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="mailto:abhisheksinghs.1031@gmail.com"><img src="https://img.shields.io/badge/Email-Reach_Out-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://github.com/AbhishekSinghKushwaha"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
 
-<p align="center">
+<p>
   <img src="https://komarev.com/ghpvc/?username=AbhishekSinghKushwaha&color=A78BFA&style=flat-square&label=Profile+Views"/>
   <img src="https://img.shields.io/github/followers/AbhishekSinghKushwaha?style=flat-square&color=6366F1&label=Followers"/>
-  <img src="https://img.shields.io/github/stars/AbhishekSinghKushwaha?style=flat-square&color=A78BFA&label=Stars"/>
+  <img src="https://img.shields.io/badge/Location-San_Francisco_Bay_Area-302b63?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Open_to-AI_Engineering_Roles-A78BFA?style=flat-square"/>
 </p>
 
----
-
-## About
-
-#### [#about](#about)
-
-I am an **AI Software Engineer** at Srasks, an AI engineering studio, where I build production grade agentic systems: multi agent orchestration graphs, hybrid retrieval pipelines, and the cloud infrastructure that carries them into production. I hold an **MS in Computer Science from Florida Atlantic University**, with thesis research on deep learning for biometric authentication using gait analysis (CNN and RNN architectures on video data).
-
-My work spans the full lifecycle: designing LangGraph agent DAGs, building hybrid RAG pipelines (dense plus sparse retrieval with reranking), standing up provider agnostic LLM infrastructure, and deploying full stack AI products with real observability.
-
-**Open to:** Senior / Mid Level AI Engineering roles · Agentic Systems · RAG Infrastructure
+</div>
 
 ---
 
-## Tech Stack
+## 👋 About Me
 
-#### [#tech-stack](#tech-stack)
+I'm an **AI Software Engineer** with **6 years of experience** building full-stack applications and production-grade AI systems. I design **agentic workflows**, **RAG pipelines**, and **LLM-powered products** using Python, LangChain, LangGraph, and FastAPI — integrated with OpenAI, Anthropic, and Gemini APIs and deployed on AWS and Google Cloud.
+
+My path runs from **data science** → **three years of full-stack engineering** shipping production apps for users across the US and Africa → **graduate AI research** on deep learning for Alzheimer's detection and biometric authentication at **Florida Atlantic University** (MS Computer Science). That arc means I think about AI systems from both the research bench and the production floor — I know what it costs when systems fail at scale.
+
+```yaml
+name: Abhishek Singh Kushwaha
+role: AI Software Engineer @ Srasks
+education: MS Computer Science, Florida Atlantic University
+focus: [ Agentic Workflows, RAG Pipelines, LLM Systems, Cloud AI ]
+location: San Francisco Bay Area, CA
+open_to: [ Senior AI Engineer, Applied AI Engineer, AI/ML Engineer ]
+```
+
+---
+
+## 🛠️ Tech Stack
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=python,js,ts,cpp&theme=dark"/>
+<img src="https://skillicons.dev/icons?i=python,js,ts,c&theme=dark"/>
 
-**AI / Agentic Frameworks**
+**AI / ML & LLM Frameworks**
 
 <p>
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
 <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/LlamaIndex-000000?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
 </p>
 
-**Backend & APIs**
-
-<img src="https://skillicons.dev/icons?i=fastapi,nodejs,django&theme=dark"/>
-
-**Data, Vector & Graph**
+**LLM & Model APIs**
 
 <p>
-<img src="https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logo=neo4j&logoColor=white"/>
-<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
-<img src="https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white"/>
+<img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/>
 </p>
 
-**Cloud & DevOps**
+**Backend & Web**
+
+<img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,react,nextjs,angular&theme=dark"/>
+
+**Data, Vector & Cloud**
+
+<p>
+<img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Weaviate-3B82F6?style=for-the-badge&logo=weaviate&logoColor=white"/>
+<img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge"/>
+</p>
 
 <p>
 <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
 </p>
 
 ---
 
-## AI / ML Expertise
+## 🧠 AI / ML Expertise
 
-#### [#ai-ml-expertise](#ai-ml-expertise)
-
-| Domain | Proficiency | Details |
+| Domain | Level | What I do |
 |---|---|---|
-| **Multi Agent Systems** | Advanced | LangGraph DAG design, agent orchestration, tool routing |
-| **RAG Pipelines** | Advanced | Hybrid retrieval (BM25 + vector + HyDE), RRF fusion, reranking |
-| **LLM Infrastructure** | Advanced | Provider agnostic factory patterns, NVIDIA NIM, Groq |
-| **Vector & Graph Retrieval** | Experienced | Supabase pgvector with HNSW indexing, Neo4j GraphRAG |
-| **LLM Observability** | Experienced | LangSmith tracing and evaluation |
-| **Cloud Deployment** | AWS Certified | Cloud Practitioner |
+| **Agentic Workflows** | Advanced | Multi-agent orchestration, tool routing, LangGraph DAGs |
+| **RAG Pipelines** | Advanced | Document indexing, retrieval + reranking, grounded generation |
+| **LLM Application Engineering** | Advanced | OpenAI / Anthropic / Gemini integrations, prompt engineering, fine-tuning |
+| **Full-Stack Development** | Advanced | React / Next.js / Angular front ends, Node.js & FastAPI back ends |
+| **Deep Learning Research** | Experienced | CV & signal processing with PyTorch / TensorFlow (gait, ECG biometrics) |
+| **Cloud & MLOps** | AWS Certified | AWS + GCP deployment, Docker, Kubernetes, CI/CD |
 
 ---
 
-## Featured Projects
+## 💼 Experience
 
-#### [#featured-projects](#featured-projects)
+**🟣 AI Software Engineer — Srasks** · *Palm Beach, FL*
+`Feb 2025 – Present`
 
-**VERDICT — Vector Enhanced Real time Document Intelligence and Contract Analysis Toolkit**
+- Architected and shipped end-to-end **agentic AI workflows** with Python, LangChain, LangGraph, FastAPI, and OpenAI / Anthropic / Gemini APIs across multiple client verticals.
+- Built an **automated invoice-processing pipeline** for a restaurant client — **98% extraction accuracy**, cutting manual effort by **95%**.
+- Delivered a **RAG-based knowledge assistant** over company documents that reduced inbound support tickets by **40%**.
+- Designed and maintained scalable cloud infrastructure on **AWS & Google Cloud** using Docker and Kubernetes.
 
-> A production grade, full stack AI system for automated contract analysis, combining a multi agent LangGraph DAG with a hybrid retrieval pipeline.
-
-| Attribute | Detail |
-|---|---|
-| **Stack** | Python · LangGraph · LangChain · FastAPI · NVIDIA NIM · Groq |
-| **Retrieval** | BM25 + vector search + HyDE + RRF fusion + Cohere reranking |
-| **Storage** | Supabase (pgvector, HNSW) · Neo4j (GraphRAG) |
-| **Parsing / Embeddings** | marker-pdf · BGE embeddings with asymmetric instruction prefixes |
-| **Observability** | LangSmith |
-| **Deployment** | Render (backend) · Vercel (frontend) |
-| **Repository** | [github.com/AbhishekSinghKushwaha](https://github.com/AbhishekSinghKushwaha) |
-
-**What it does:** Parses legal contracts, builds a hybrid retrieval index across vector and graph stores, and runs a multi agent reasoning pipeline to surface clause level insights, all through a provider agnostic LLM layer so any model can be swapped in with a one line change.
+`LangChain` `LangGraph` `FastAPI` `RAG` `AWS` `GCP`
 
 <br>
 
-**[Your Next Project] — [One line description]**
+**🟣 Graduate Research & Teaching Assistant — Florida Atlantic University** · *Boca Raton, FL*
+`May 2024 – Dec 2025`
 
-> [What problem it solves and the outcome it produced]
+- Led deep-learning research on **3D gait analysis for early Alzheimer's detection** (Python, TensorFlow, Metrabs) on mobile video data.
+- Designed a **secure biometric authentication system** using ECG signal processing and deep learning.
+- Supported **150+ students** across lab sessions, improving assignment comprehension by **15%**.
 
-| Attribute | Detail |
+`TensorFlow` `PyTorch` `Computer Vision` `Signal Processing`
+
+<br>
+
+**🟣 Machine Learning Instructor — Pace Club** · *Boca Raton, FL*
+`Sep 2025 – Dec 2025`
+
+- Designed and delivered a hands-on curriculum on **production-grade RAG agents and agentic AI** (LangChain, LlamaIndex, FAISS, Weaviate, Hugging Face).
+- Taught end-to-end **LLM deployment on AWS** (Lambda, S3, API Gateway).
+
+<br>
+
+**🟣 Full Stack Developer — Binoct Technologies** · *Hyderabad, India*
+`Feb 2021 – Dec 2023`
+
+- Shipped full-stack production apps for **5,000+ users** across the US and Africa (React, Node.js, Express, MySQL, MongoDB).
+- Cut page load time by **30%** and backend response latency by **30%** via query optimization and caching; maintained **99% uptime**.
+
+<br>
+
+**🟣 Jr. Data Scientist — Innodatatics** · *Hyderabad, India*
+`Jan 2020 – Jan 2021`
+
+- Built a fraud-detection system (Neural Networks + Random Forest) — **95% accuracy**, reducing fraud by **30%**.
+- Built Tableau analytics dashboards and an NLP-driven pharmacy chatbot (Rasa, Python, MongoDB).
+
+---
+
+## 🚀 Featured Projects
+
+**🔹 Agentic AI for Automated Threat Detection**
+> RAG-based AI agents focused on secure data processing and controlled user interaction — improved response accuracy by **15%**, deployed on AWS S3 & Lambda with access control and data privacy built in.
+
+`Python` `RAG` `LangChain` `AWS Lambda` `AWS S3`
+
+<br>
+
+**🔹 3D Gait Assessment for Early Alzheimer's Detection**
+> Deep neural network pipeline that detects Alzheimer's indicators from 3D gait analysis on mobile video — preprocessing stride length and joint movement for classification.
+
+`Python` `TensorFlow` `Metrabs` `Computer Vision`
+
+<br>
+
+**🔹 Carbon Credits Tracking & Management System**
+> Full-stack platform to track and manage carbon credits — user auth, carbon-footprint tracking, Google Maps distance calculation, and interactive dashboards.
+
+`React` `Node.js` `Express` `MongoDB` `Vercel`
+
+<br>
+
+**🔹 Secure Biometric Authentication using ECG Signals**
+> ML-based biometric system that extracts features from ECG signals and classifies unique heartbeat patterns for secure identification in healthcare security applications.
+
+`Python` `TensorFlow` `Signal Processing`
+
+<br>
+
+**🔹 Multilingual Handwritten Digit Recognition**
+> Trained and benchmarked AlexNet, VGG16, ResNet50, and LeNet on the MNIST_MIX dataset spanning multiple languages and scripts to find the most accurate, efficient architecture.
+
+`Python` `TensorFlow` `CNN` `Deep Learning`
+
+---
+
+## 🎓 Education & Certifications
+
+| | |
 |---|---|
-| **Stack** | `[stack]` |
-| **Repository** | [Add link](#) |
-
----
-
-## Experience
-
-#### [#experience](#experience)
-
-**AI Software Engineer — Srasks**
-`[Month Year] – Present`
-
-Building production agentic AI systems: LangGraph orchestration, hybrid RAG pipelines, and cloud native deployments across AWS, Render, and Vercel.
-
-`LangChain` `LangGraph` `FastAPI` `AWS` `RAG`
-
-**Full Stack Developer — Binoct Technologies**
-`[Month Year] – [Month Year]`
-
-`[One or two lines on scope of work]`
-
-**Jr. Data Scientist — Innodatatics**
-`[Month Year] – [Month Year]`
-
-`[One or two lines on scope of work]`
-
-**Graduate Research & Teaching Assistant — Florida Atlantic University**
-`[Month Year] – [Month Year]`
-
-Researched deep learning pipelines for biometric authentication via gait analysis, using CNN and RNN architectures on video data.
-
-**ML Instructor — Pace Club**
-`[Month Year] – [Month Year]`
-
-`[One or two lines on scope of work]`
-
----
-
-## Certifications
-
-#### [#certifications](#certifications)
-
-**Amazon Web Services**
-
-<img src="https://img.shields.io/badge/AWS-Certified_Cloud_Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-
----
-
-## GitHub Analytics
-
-#### [#github-analytics](#github-analytics)
+| 🎓 **MS, Computer Science** — Florida Atlantic University | *Dec 2025* |
+| 🎓 **B.Tech, Computer Science & Engineering** — JNTU Hyderabad | *May 2019* |
 
 <p>
-<img src="https://github-readme-stats.vercel.app/api?username=AbhishekSinghKushwaha&show_icons=true&theme=tokyonight&border_radius=10&hide_border=false&count_private=true" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=AbhishekSinghKushwaha&theme=tokyonight&border_radius=10&hide_border=false" height="165"/>
+<img src="https://img.shields.io/badge/AWS-Cloud_Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+<img src="https://img.shields.io/badge/IBM-Data_Science_Foundations_L1_%26_L2-052FAD?style=for-the-badge&logo=ibm&logoColor=white"/>
 </p>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbhishekSinghKushwaha&layout=compact&theme=tokyonight&border_radius=10&hide_border=false&langs_count=8"/>
+**Hackathons:** AllOfUs Precision Medicine · Responsible AI (FAU) · Great Indian Hackathon (MachineHack)
 
 ---
 
-## GitHub Trophies
+## 📊 GitHub Analytics
 
-#### [#github-trophies](#github-trophies)
+<div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=AbhishekSinghKushwaha&theme=tokyonight&no-frame=true&margin-w=12&row=2&column=4"/>
+<img src="https://github-readme-stats.vercel.app/api?username=AbhishekSinghKushwaha&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=AbhishekSinghKushwaha&theme=tokyonight&hide_border=true" height="165"/>
 
----
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbhishekSinghKushwaha&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
 
-## Contribution Activity
+<img src="https://github-profile-trophy.vercel.app/?username=AbhishekSinghKushwaha&theme=tokyonight&no-frame=true&margin-w=10&row=1&column=6"/>
 
-#### [#contribution-activity](#contribution-activity)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AbhishekSinghKushwaha&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AbhishekSinghKushwaha&theme=tokyo-night&hide_border=true&area=true"/>
-
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
-
----
-
-## Current Focus
-
-#### [#current-focus](#current-focus)
-
-```
-Building:
-  - VERDICT: multi agent contract analysis platform
-  - Provider agnostic LLM infrastructure (NVIDIA NIM, Groq)
-
-Refining:
-  - Hybrid RAG: BM25 + vector + HyDE + RRF fusion + reranking
-  - GraphRAG on Neo4j alongside Supabase pgvector
-
-Exploring:
-  - AWS ecosystem for scaled agent deployment
-  - Deeper LangGraph orchestration patterns
-
-Open To:
-  - Senior / Mid Level AI Engineering roles
-  - Agentic systems and RAG infrastructure work
-```
+</div>
 
 ---
 
-## Connect
+## 🤝 Connect
 
-#### [#connect](#connect)
+<div align="center">
 
-<p>
-<a href="mailto:abhisheksinghs.1031@gmail.com"><img src="https://img.shields.io/badge/Email-Reach_Out-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="mailto:abhisheksinghs.1031@gmail.com"><img src="https://img.shields.io/badge/Email-abhisheksinghs.1031@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/abhishek-singh-kushwaha"><img src="https://img.shields.io/badge/LinkedIn-Abhishek_Singh_Kushwaha-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://github.com/AbhishekSinghKushwaha"><img src="https://img.shields.io/badge/GitHub-AbhishekSinghKushwaha-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-<a href="https://your-portfolio-url.com"><img src="https://img.shields.io/badge/Portfolio-Live_Website-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-</p>
+
+<br><br>
 
 *Building at the intersection of agentic AI, retrieval systems, and production infrastructure.*
+
+</div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
