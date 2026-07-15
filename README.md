@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=180&section=header&text=Abhishek%20Singh%20Kushwaha&fontSize=42&fontColor=ffffff&fontAlignY=32&desc=AI%20Software%20Engineer%20%C2%B7%20Agentic%20Systems%20%C2%B7%20RAG%20Pipelines&descAlignY=54&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Abhishek%20Singh%20Kushwaha&fontSize=44&fontColor=ffffff&fontAlignY=32&desc=AI%20Software%20Engineer%20%C2%B7%20Agentic%20Systems%20%C2%B7%20RAG%20Pipelines&descAlignY=54&descSize=18" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=1000&color=A78BFA&center=true&vCenter=true&width=940&lines=AI+Software+Engineer+%C2%B7+6+Years+Experience;Building+Production+Agentic+AI+Systems;RAG+Pipelines+%C2%B7+LLM+Apps+%C2%B7+Full+Stack;Python+%7C+LangChain+%7C+FastAPI+%7C+AWS" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&multiline=false&width=940&lines=AI+Software+Engineer+%C2%B7+6+Years+Shipping+Software;Building+Production+Agentic+AI+Systems;RAG+Pipelines+%C2%B7+LLM+Apps+%C2%B7+Full+Stack;Open+Weights+or+Frontier+API+%E2%80%94+Whatever+Fits;Python+%7C+LangGraph+%7C+FastAPI+%7C+AWS+%7C+NVIDIA+NIM" alt="Typing SVG" />
 
 <p>
   <a href="https://www.linkedin.com/in/abhishek-singh-kushwaha"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -13,8 +13,8 @@
 <p>
   <img src="https://komarev.com/ghpvc/?username=AbhishekSinghKushwaha&color=A78BFA&style=flat-square&label=Profile+Views"/>
   <img src="https://img.shields.io/github/followers/AbhishekSinghKushwaha?style=flat-square&color=6366F1&label=Followers"/>
-  <img src="https://img.shields.io/badge/Location-San_Francisco_Bay_Area-302b63?style=flat-square"/>
   <img src="https://img.shields.io/badge/Open_to-AI_Engineering_Roles-A78BFA?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Status-Building_Agents-10B981?style=flat-square"/>
 </p>
 
 </div>
@@ -23,54 +23,143 @@
 
 ## 👋 About Me
 
-I'm an **AI Software Engineer** with **6 years of experience** building full-stack applications and production-grade AI systems. I design **agentic workflows**, **RAG pipelines**, and **LLM-powered products** using Python, LangChain, LangGraph, and FastAPI — integrated with OpenAI, Anthropic, and Gemini APIs and deployed on AWS and Google Cloud.
+I'm an **AI Software Engineer** with **6 years of experience** building full-stack applications and production-grade AI systems. I design **agentic workflows**, **RAG pipelines**, and **LLM-powered products** using Python, LangChain, LangGraph, and FastAPI — running on frontier APIs and open-weight models alike, deployed across AWS and Google Cloud.
 
-My path runs from **data science** → **three years of full-stack engineering** shipping production apps for users across the US and Africa → **graduate AI research** on deep learning for Alzheimer's detection and biometric authentication at **Florida Atlantic University** (MS Computer Science). That arc means I think about AI systems from both the research bench and the production floor — I know what it costs when systems fail at scale.
+My path runs from **data science** → **three years of full-stack engineering** shipping production apps for users across the US and Africa → **graduate AI research** on deep learning for Alzheimer's detection and biometric authentication. That arc means I think about AI systems from both the research bench and the production floor — I know what it costs when systems fail at scale.
 
-```yaml
-name: Abhishek Singh Kushwaha
-role: AI Software Engineer @ Srasks
-education: MS Computer Science, Florida Atlantic University
-focus: [ Agentic Workflows, RAG Pipelines, LLM Systems, Cloud AI ]
-location: San Francisco Bay Area, CA
-open_to: [ Senior AI Engineer, Applied AI Engineer, AI/ML Engineer ]
+```console
+$ whoami --verbose
+
+  role      →  AI Software Engineer @ Srasks
+  focus     →  Agentic Workflows · RAG · LLM Systems · Cloud AI
+  models    →  GPT · Claude · Gemini · Llama · Mistral · Qwen · DeepSeek
+  runtime   →  NVIDIA NIM · Groq · vLLM · Ollama · Bedrock · Vertex AI
+  open_to   →  Senior AI Engineer · Applied AI Engineer · AI/ML Engineer
+  motto     →  "Make it correct, then make it cheap, then make it fast."
+
+$ _
+```
+
+---
+
+## 🧬 How I Build Agentic Systems
+
+> The shape almost every system I ship converges on — routed, grounded, evaluated, and cheap by default.
+
+```mermaid
+flowchart LR
+    U([User]) --> R{Router<br/>LangGraph}
+
+    R -->|simple| S[Small Open Model<br/>Llama · Qwen · Mistral]
+    R -->|hard| F[Frontier API<br/>GPT · Claude · Gemini]
+    R -->|retrieval| RAG[[RAG Pipeline]]
+
+    RAG --> E[Embed + Chunk]
+    E --> V[(Vector Store<br/>Weaviate · FAISS · Pinecone)]
+    V --> RR[Rerank + Ground]
+    RR --> F
+
+    S --> T{{Tool Layer<br/>APIs · SQL · Code}}
+    F --> T
+    T --> G[Guardrails<br/>+ Validation]
+    G -->|pass| O([Response])
+    G -->|fail| R
+
+    O --> OBS[/Traces · Evals · Cost<br/>LangSmith/]
+    OBS -.->|feedback loop| R
+
+    classDef acc fill:#302b63,stroke:#A78BFA,stroke-width:2px,color:#fff
+    classDef store fill:#1C3C3C,stroke:#10B981,stroke-width:2px,color:#fff
+    classDef edge fill:#0f0c29,stroke:#6366F1,stroke-width:2px,color:#fff
+    class R,S,F,G acc
+    class V,E,RR,RAG store
+    class U,O,T,OBS edge
 ```
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Languages**
+<details open>
+<summary><b>🧠 Models — Frontier APIs</b></summary>
+<br>
+<p>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white"/>
+<img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/>
+<img src="https://img.shields.io/badge/NVIDIA_NIM-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
+<img src="https://img.shields.io/badge/Mistral_AI-FA520F?style=for-the-badge&logo=mistralai&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cohere-39594D?style=for-the-badge&logo=cohere&logoColor=white"/>
+<img src="https://img.shields.io/badge/xAI_Grok-000000?style=for-the-badge&logo=x&logoColor=white"/>
+<img src="https://img.shields.io/badge/Perplexity-1FB8CD?style=for-the-badge&logo=perplexity&logoColor=white"/>
+<img src="https://img.shields.io/badge/AWS_Bedrock-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vertex_AI-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
+<img src="https://img.shields.io/badge/Azure_OpenAI-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
+</p>
+</details>
 
-<img src="https://skillicons.dev/icons?i=python,js,ts,c&theme=dark"/>
+<details open>
+<summary><b>🦙 Models — Open Weights</b></summary>
+<br>
+<p>
+<img src="https://img.shields.io/badge/Llama_3.x-0866FF?style=for-the-badge&logo=meta&logoColor=white"/>
+<img src="https://img.shields.io/badge/Mistral_%2F_Mixtral-FA520F?style=for-the-badge&logo=mistralai&logoColor=white"/>
+<img src="https://img.shields.io/badge/Qwen-6236FF?style=for-the-badge&logo=alibabacloud&logoColor=white"/>
+<img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white"/>
+<img src="https://img.shields.io/badge/Gemma-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
+<img src="https://img.shields.io/badge/Phi-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"/>
+<img src="https://img.shields.io/badge/Falcon-1F4E79?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Whisper-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/Stable_Diffusion-000000?style=for-the-badge&logo=stabilityai&logoColor=white"/>
+</p>
+</details>
 
-**AI / ML & LLM Frameworks**
+<details open>
+<summary><b>⚡ Inference & Serving</b></summary>
+<br>
+<p>
+<img src="https://img.shields.io/badge/NVIDIA_NIM_%2F_NeMo-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
+<img src="https://img.shields.io/badge/NVIDIA_Triton-76B900?style=for-the-badge&logo=nvidia&logoColor=black"/>
+<img src="https://img.shields.io/badge/TensorRT--LLM-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
+<img src="https://img.shields.io/badge/vLLM-FDBA74?style=for-the-badge&logoColor=black"/>
+<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white"/>
+<img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Together_AI-0F6FFF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Replicate-000000?style=for-the-badge&logo=replicate&logoColor=white"/>
+<img src="https://img.shields.io/badge/llama.cpp-9C27B0?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
+</p>
+</details>
 
+<details open>
+<summary><b>🔗 AI / ML Frameworks</b></summary>
+<br>
 <p>
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
 <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/LlamaIndex-000000?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LlamaIndex-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/MCP-D97757?style=for-the-badge&logo=anthropic&logoColor=white"/>
 <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/LoRA_%2F_PEFT-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
 </p>
+</details>
 
-**LLM & Model APIs**
-
-<p>
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white"/>
-<img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/>
-</p>
-
-**Backend & Web**
-
+<details open>
+<summary><b>💻 Languages, Backend & Web</b></summary>
+<br>
+<img src="https://skillicons.dev/icons?i=python,js,ts,c&theme=dark"/>
+<br><br>
 <img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,react,nextjs,angular&theme=dark"/>
+</details>
 
-**Data, Vector & Cloud**
-
+<details open>
+<summary><b>🗄️ Data, Vector & Cloud</b></summary>
+<br>
 <p>
 <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
@@ -78,156 +167,71 @@ open_to: [ Senior AI Engineer, Applied AI Engineer, AI/ML Engineer ]
 <img src="https://img.shields.io/badge/Weaviate-3B82F6?style=for-the-badge&logo=weaviate&logoColor=white"/>
 <img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white"/>
 <img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Chroma-FF6B6B?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
 </p>
-
 <p>
 <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
 <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
 </p>
+</details>
 
 ---
 
-## 🧠 AI / ML Expertise
+## 🧭 How I Think About AI Systems
 
-| Domain | Level | What I do |
-|---|---|---|
-| **Agentic Workflows** | Advanced | Multi-agent orchestration, tool routing, LangGraph DAGs |
-| **RAG Pipelines** | Advanced | Document indexing, retrieval + reranking, grounded generation |
-| **LLM Application Engineering** | Advanced | OpenAI / Anthropic / Gemini integrations, prompt engineering, fine-tuning |
-| **Full-Stack Development** | Advanced | React / Next.js / Angular front ends, Node.js & FastAPI back ends |
-| **Deep Learning Research** | Experienced | CV & signal processing with PyTorch / TensorFlow (gait, ECG biometrics) |
-| **Cloud & MLOps** | AWS Certified | AWS + GCP deployment, Docker, Kubernetes, CI/CD |
+<table>
+<tr>
+<td width="50%" valign="top">
 
----
+**🎯 Evals before vibes**
 
-## 💼 Experience
+A demo that works once isn't a system. If there's no eval set and no trace, it isn't shipped — it's a coincidence waiting to be discovered in prod.
 
-**🟣 AI Software Engineer — Srasks** · *Palm Beach, FL*
-`Feb 2025 – Present`
+</td>
+<td width="50%" valign="top">
 
-- Architected and shipped end-to-end **agentic AI workflows** with Python, LangChain, LangGraph, FastAPI, and OpenAI / Anthropic / Gemini APIs across multiple client verticals.
-- Built an **automated invoice-processing pipeline** for a restaurant client — **98% extraction accuracy**, cutting manual effort by **95%**.
-- Delivered a **RAG-based knowledge assistant** over company documents that reduced inbound support tickets by **40%**.
-- Designed and maintained scalable cloud infrastructure on **AWS & Google Cloud** using Docker and Kubernetes.
+**⚖️ Right model, right job**
 
-`LangChain` `LangGraph` `FastAPI` `RAG` `AWS` `GCP`
+Not every call needs a frontier model. Route the easy 80% to an open-weight model on NIM or vLLM and spend the budget where reasoning actually matters.
 
-<br>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**🟣 Graduate Research & Teaching Assistant — Florida Atlantic University** · *Boca Raton, FL*
-`May 2024 – Dec 2025`
+**📚 Retrieval beats parameters**
 
-- Led deep-learning research on **3D gait analysis for early Alzheimer's detection** (Python, TensorFlow, Metrabs) on mobile video data.
-- Designed a **secure biometric authentication system** using ECG signal processing and deep learning.
-- Supported **150+ students** across lab sessions, improving assignment comprehension by **15%**.
+Most "the model doesn't know this" problems are retrieval problems. Fix the chunking and the reranker before reaching for a fine-tune.
 
-`TensorFlow` `PyTorch` `Computer Vision` `Signal Processing`
+</td>
+<td width="50%" valign="top">
 
-<br>
+**🏗️ Boring infra, interesting models**
 
-**🟣 Machine Learning Instructor — Pace Club** · *Boca Raton, FL*
-`Sep 2025 – Dec 2025`
+The AI layer should be the only novel thing in the stack. Everything under it — queues, caches, deploys — should be aggressively unsurprising.
 
-- Designed and delivered a hands-on curriculum on **production-grade RAG agents and agentic AI** (LangChain, LlamaIndex, FAISS, Weaviate, Hugging Face).
-- Taught end-to-end **LLM deployment on AWS** (Lambda, S3, API Gateway).
-
-<br>
-
-**🟣 Full Stack Developer — Binoct Technologies** · *Hyderabad, India*
-`Feb 2021 – Dec 2023`
-
-- Shipped full-stack production apps for **5,000+ users** across the US and Africa (React, Node.js, Express, MySQL, MongoDB).
-- Cut page load time by **30%** and backend response latency by **30%** via query optimization and caching; maintained **99% uptime**.
-
-<br>
-
-**🟣 Jr. Data Scientist — Innodatatics** · *Hyderabad, India*
-`Jan 2020 – Jan 2021`
-
-- Built a fraud-detection system (Neural Networks + Random Forest) — **95% accuracy**, reducing fraud by **30%**.
-- Built Tableau analytics dashboards and an NLP-driven pharmacy chatbot (Rasa, Python, MongoDB).
+</td>
+</tr>
+</table>
 
 ---
 
-## 🚀 Featured Projects
+## 🔭 Currently
 
-**🔹 Agentic AI for Automated Threat Detection**
-> RAG-based AI agents focused on secure data processing and controlled user interaction — improved response accuracy by **15%**, deployed on AWS S3 & Lambda with access control and data privacy built in.
-
-`Python` `RAG` `LangChain` `AWS Lambda` `AWS S3`
-
-<br>
-
-**🔹 3D Gait Assessment for Early Alzheimer's Detection**
-> Deep neural network pipeline that detects Alzheimer's indicators from 3D gait analysis on mobile video — preprocessing stride length and joint movement for classification.
-
-`Python` `TensorFlow` `Metrabs` `Computer Vision`
-
-<br>
-
-**🔹 Carbon Credits Tracking & Management System**
-> Full-stack platform to track and manage carbon credits — user auth, carbon-footprint tracking, Google Maps distance calculation, and interactive dashboards.
-
-`React` `Node.js` `Express` `MongoDB` `Vercel`
-
-<br>
-
-**🔹 Secure Biometric Authentication using ECG Signals**
-> ML-based biometric system that extracts features from ECG signals and classifies unique heartbeat patterns for secure identification in healthcare security applications.
-
-`Python` `TensorFlow` `Signal Processing`
-
-<br>
-
-**🔹 Multilingual Handwritten Digit Recognition**
-> Trained and benchmarked AlexNet, VGG16, ResNet50, and LeNet on the MNIST_MIX dataset spanning multiple languages and scripts to find the most accurate, efficient architecture.
-
-`Python` `TensorFlow` `CNN` `Deep Learning`
-
----
-
-## 🎓 Education & Certifications
-
-| | |
-|---|---|
-| 🎓 **MS, Computer Science** — Florida Atlantic University | *Dec 2025* |
-| 🎓 **B.Tech, Computer Science & Engineering** — JNTU Hyderabad | *May 2019* |
-
-<p>
-<img src="https://img.shields.io/badge/AWS-Cloud_Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-<img src="https://img.shields.io/badge/IBM-Data_Science_Foundations_L1_%26_L2-052FAD?style=for-the-badge&logo=ibm&logoColor=white"/>
-</p>
-
-**Hackathons:** AllOfUs Precision Medicine · Responsible AI (FAU) · Great Indian Hackathon (MachineHack)
-
----
-
-## 📊 GitHub Analytics
+```text
+▸ Building     multi-agent workflows with LangGraph + MCP tool servers
+▸ Exploring    open-weight model routing — NVIDIA NIM, vLLM, Groq
+▸ Learning     eval-driven development & LLM observability at scale
+▸ Ask me about RAG that survives contact with real documents
+```
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=AbhishekSinghKushwaha&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=AbhishekSinghKushwaha&theme=tokyonight&hide_border=true" height="165"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbhishekSinghKushwaha&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=AbhishekSinghKushwaha&theme=tokyonight&no-frame=true&margin-w=10&row=1&column=6"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AbhishekSinghKushwaha&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
-
-</div>
-
----
-
-## 🤝 Connect
-
-<div align="center">
-
-<a href="mailto:abhisheksinghs.1031@gmail.com"><img src="https://img.shields.io/badge/Email-abhisheksinghs.1031@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/abhishek-singh-kushwaha"><img src="https://img.shields.io/badge/LinkedIn-Abhishek_Singh_Kushwaha-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://github.com/AbhishekSinghKushwaha"><img src="https://img.shields.io/badge/GitHub-AbhishekSinghKushwaha-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Quote"/>
 
 <br><br>
 
