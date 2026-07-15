@@ -21,11 +21,11 @@
 
 ---
 
-## 👋 About Me
+## About Me
 
-I'm an **AI Software Engineer** with **6 years of experience** building full-stack applications and production-grade AI systems. I design **agentic workflows**, **RAG pipelines**, and **LLM-powered products** using Python, LangChain, LangGraph, and FastAPI, running on frontier APIs and open-weight models alike, deployed across AWS and Google Cloud.
+**AI Software Engineer** with **6 years of experience** building full stack applications and production grade AI systems. Specialized in designing **agentic workflows**, **RAG pipelines**, and **LLM powered solutions** using Python, LangChain, FastAPI, and leading model APIs including OpenAI, Anthropic, and Gemini.
 
-My path runs from **data science** → **three years of full-stack engineering** shipping production apps for users across the US and Africa → **graduate AI research** on deep learning for Alzheimer's detection and biometric authentication. That arc means I think about AI systems from both the research bench and the production floor. I know what it costs when systems fail at scale.
+Experienced across the full stack with ReactJS, Node.js, and AWS, with a strong foundation in deep learning using TensorFlow and PyTorch. Passionate about shipping AI systems that solve real operational problems and deliver measurable impact.
 
 ```console
 $ whoami --verbose
@@ -43,7 +43,7 @@ $ _
 
 ---
 
-## 🧬 How I Build Agentic Systems
+## How I Build Agentic Systems
 
 > The shape almost every system I ship converges on: routed, grounded, evaluated, and cheap by default.
 
@@ -79,10 +79,10 @@ flowchart LR
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <details open>
-<summary><b>🧠 Models & Inference</b></summary>
+<summary><b>Models & Inference</b></summary>
 <br>
 <p>
 <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
@@ -99,7 +99,7 @@ flowchart LR
 </details>
 
 <details open>
-<summary><b>🤖 AI Coding Agents</b></summary>
+<summary><b>AI Coding Agents</b></summary>
 <br>
 <p>
 <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white"/>
@@ -110,7 +110,7 @@ flowchart LR
 </details>
 
 <details open>
-<summary><b>🔗 AI / ML Frameworks</b></summary>
+<summary><b>AI / ML Frameworks</b></summary>
 <br>
 <p>
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
@@ -128,7 +128,7 @@ flowchart LR
 </details>
 
 <details open>
-<summary><b>💻 Languages, Backend & Web</b></summary>
+<summary><b>Languages, Backend & Web</b></summary>
 <br>
 <img src="https://skillicons.dev/icons?i=python,js,ts,c&theme=dark"/>
 <br><br>
@@ -136,7 +136,7 @@ flowchart LR
 </details>
 
 <details open>
-<summary><b>🗄️ Data, Vector & Cloud</b></summary>
+<summary><b>Data, Vector & Cloud</b></summary>
 <br>
 <p>
 <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
@@ -156,7 +156,7 @@ flowchart LR
 
 ---
 
-## 🔭 Currently
+## Currently
 
 ```text
 ▸ Building     multi-agent workflows with LangGraph + MCP tool servers
